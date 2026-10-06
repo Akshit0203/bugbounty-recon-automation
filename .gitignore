@@ -1,0 +1,27 @@
+# Recon output — never commit scan results of any target
+*/subdomains
+*/subdomains.txt
+*/alive.txt
+*/jsfiles
+*/takeovers.txt
+*/directory_fuzzing.txt
+*/reports/
+
+# Common recon artifact names at repo root
+subdomains
+subdomains.txt
+alive.txt
+jsfiles
+takeovers.txt
+directory_fuzzing.txt
+reports/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
